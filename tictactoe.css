@@ -9,6 +9,12 @@ p{
 	font-weight: bold;
 	font-size: 40px;
 }
+#choice{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(100,30,255);
+}
 button{
 	background:white;
 	position:absolute; 
