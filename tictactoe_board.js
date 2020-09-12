@@ -43,10 +43,12 @@ function modify(){ //Activate the window based on active and inactive states
     if(state=="active"){
         $("#x").hide();
         $("#o").hide();
+        $("#choice").hide();
         $("#mycanvas").css("cursor","pointer");
     }else if(state=="inactive"){
         $("#x").show();
         $("#o").show();
+        $("#choice").show();
         $("#mycanvas").css("cursor","");
     }else
         $("#mycanvas").css("cursor","");
